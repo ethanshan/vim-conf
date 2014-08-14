@@ -1,0 +1,47 @@
+$
+$ =============================================================
+$ ========== USER MACROS ======================================
+$ =============================================================
+$
+|AUTHOR|    = James Deng
+|AUTHORREF| = 
+|EMAIL|     = csjamesdeng@allwinnertech.com
+|COMPANY|   = Allwinner Technology
+|COPYRIGHT| = Copyright (c) |YEAR| |COMPANY|. All Rights Reserved.
+|STYLE|     = default
+$/*
+****************************************************************************************************
+*                                               MELIS
+*                               the Easy Portable/Player Develop Kits
+*                                           SDMMC Module
+*
+*                           (c) Copyright 2012-2015, All winners Co,Ld.
+*                                       All Rights Reserved
+*
+* File    : 
+* By      : james.deng
+* Version : 1.0.0
+* Date    : 2012-03-19
+* Descript: 
+* Update  : <date>          <author>            <version>           <notes>
+*           2012-03-19      james.deng          1.0.0               build the file.
+****************************************************************************************************
+*/
+$ =============================================================
+$ ========== FILE INCLUDES ====================================
+$ =============================================================
+$
+|includefile| = c.comments.template
+|includefile| = c.cpp.template
+|includefile| = c.idioms.template
+|includefile| = c.preprocessor.template
+|includefile| = c.statements.template
+$
+== IF |STYLE| IS CPP ==
+|includefile| = cpp.comments.template
+|includefile| = cpp.cpp.template
+|includefile| = cpp.idioms.template
+|includefile| = cpp.preprocessor.template
+|includefile| = cpp.statements.template
+== ENDIF ==
+$

@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/liujianqiang/workspace/a20/lichee/brandy/u-boot-2011.09/board/sunxi/sun7iw1/standby'
+let g:netrw_dirhist_2='/home/shanxiaoxi/code/sugar42/lichee/linux-3.3/drivers/net/wireless/rtl8188eu_old_old'
+let g:netrw_dirhist_3='/home/shanxiaoxi/.vim'
+let g:netrw_dirhist_4='/home/shanxiaoxi/code/nfsmount/nfs-utils/nfs-utils-1.1.1'
